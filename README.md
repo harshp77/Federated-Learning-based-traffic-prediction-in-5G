@@ -45,6 +45,8 @@ Mobile traffic prediction is paramount in empowering 5G mobile networks to carry
 
 ### Federated Averaging Algorithm
 
+![image](https://github.com/harshp77/Federated-Learning-based-traffic-prediction-in-5G/assets/76607486/afd7aa30-b953-4109-adcb-5f22a3cfd8e1)
+
 Federated Averaging is a key algorithm in federated learning. It involves aggregating model updates from multiple clients while preserving data privacy. The algorithm can be described as follows:
 
 ```math
@@ -57,6 +59,7 @@ w_(t+1) is the updated global model at time (t+1).
 w_i^(t) is the local model of client i at time t.
 
 N is the total number of clients.
+
 
 
 ## Dataset
