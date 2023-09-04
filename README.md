@@ -6,7 +6,7 @@
         <img src="https://img.icons8.com/?size=512&id=kTuxVYRKeKEY&format=png" width="80" />
 <br>Mobile Traffic Prediction with Federated Learning
 </h1>
-<h3>◦ o Forecast uplink/downlink performance per station </h3>
+<h3>◦ Forecast uplink/downlink performance per station </h3>
 <h3>◦ Developed with the software and tools listed below.</h3>
 
 <p align="center">
