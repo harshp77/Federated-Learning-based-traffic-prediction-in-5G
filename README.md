@@ -43,10 +43,6 @@ Mobile traffic prediction is paramount in empowering 5G mobile networks to carry
 
 Mobile traffic prediction is paramount in empowering 5G mobile networks to carry out intelligent and effective infrastructure planning and management. Base station logging data are the only data that are currently accessible. Thus, there is a need for training techniques for producing accurate predictions that can generalize to fresh observations of various parties. According to conventional methods, measurements from several base stations must be collected, sent to a central location, and then used to perform machine learning operations on the data. Adopting local observations is constrained by privacy, confidentiality, and performance issues for machine learning. Several distributed learning techniques have been put forth to address this issue, but their potential for traffic prediction has not yet been investigated. This work explores how effective federated learning is when applied to unprocessed and aggregated LTE data from base stations for time-series forecasting. We evaluate one-step predictions for three different cities trained with a federated setting on non-iid data. Our findings indicate that pre-processing techniques on base stations increase forecasting accuracy while state-of-the-art aggregators do not outperform straightforward methods. Learning architectures tailored to federated settings also achieve prediction errors equivalent to those in centralized settings.
 
-## 📊 Mathematical Concepts
-
-In this section, we provide a brief overview of the mathematical concepts used in our federated learning approach:
-
 ### Federated Averaging Algorithm
 
 Federated Averaging is a key algorithm in federated learning. It involves aggregating model updates from multiple clients while preserving data privacy. The algorithm can be described as follows:
